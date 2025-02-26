@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parinte {
+                border-style: solid;
+                border-color: blue;
+                border-width: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 80vh;
+
+            }
+        .copil {
+                background-color: bisque;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                position:relative;
+                border-style: double;
+            }
+        .copil img {
+                /* procentaj din parinte */
+                height: 80%;
+                width: 90%;
+                object-fit: cover;
+                border-style: dashed;
+                border-color: blue;
+                border-width: 2px;
+                
+
+            }
+        .copil p {
+            background-color: white;
+            margin-top:-30px;
+        }
+        #cerc {
+            background-color: red;
+            position:absolute;
+            right: 20px;
+            top: 15px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="parinte">
+        <div class="copil">
+            <dig id="cerc"></dig>
+            <img src="https://img.posterstore.com/zoom/wb0127-8thejoker-portrait50x70.jpg?auto=compress%2Cformat&fit=max&w=3840" alt="">
+            <p>Joker</p>
+        </div>
+        <div class="copil">
+            <img src="https://img.posterstore.com/zoom/wb0127-8thejoker-portrait50x70.jpg?auto=compress%2Cformat&fit=max&w=3840" alt="">
+            <p>Django</p>
+        </div>
+        <div class="copil">
+            <img src="https://img.posterstore.com/zoom/wb0127-8thejoker-portrait50x70.jpg?auto=compress%2Cformat&fit=max&w=3840" alt="">
+            <p>Joker</p>
+        </div>
+        <div class="copil">
+            <img src="https://img.posterstore.com/zoom/wb0127-8thejoker-portrait50x70.jpg?auto=compress%2Cformat&fit=max&w=3840" alt="">
+            <p>Leonardo</p>
+        </div>
+
+       
+
+
+    </div>
+</body>
+</html>
